@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e5e5"
+    android:padding="5dip" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/profileName" >
+
+        <ImageView
+            android:id="@+id/profileBody"
+            android:layout_width="wrap_content"
+            android:layout_height="269dp"
+            android:layout_weight="1.67" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:textColor="#3d3d3d"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/profileScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/profileName"
+        android:layout_marginTop="28dp"
+        android:layout_toLeftOf="@+id/linearLayout1"
+        android:ems="10"
+        android:textColor="#3d3d3d"
+        android:textSize="20sp" >
+
+        <requestFocus />
+    </TextView>
+
+    <TextView
+        android:id="@+id/profileReputation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/profileScore"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/linearLayout1"
+        android:ems="10"
+        android:textColor="#3d3d3d"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/profileReputation"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:text="Atividades recentes:"
+        android:textColor="#3d3d3d"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/profileGame3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/profileGame2"
+        android:layout_alignRight="@+id/editText4"
+        android:layout_below="@+id/profileGame2"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:textColor="#3d3d3d"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/profileGame1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignRight="@+id/editText4"
+        android:layout_below="@+id/editText4"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:textColor="#3d3d3d"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/profileGame2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/profileGame1"
+        android:layout_alignRight="@+id/profileGame1"
+        android:layout_below="@+id/profileGame1"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:textColor="#3d3d3d"
+        android:textSize="20sp" />
+
+</RelativeLayout>

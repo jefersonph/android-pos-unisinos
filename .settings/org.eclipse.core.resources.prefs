@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/com/unisinos/csj/MainActivity.java=UTF-8
+encoding//src/com/unisinos/csj/adapter/AdapterListView.java=UTF-8
+encoding//src/com/unisinos/csj/fragments/FriendGames.java=UTF-8
+encoding//src/com/unisinos/csj/fragments/Friends.java=UTF-8
+encoding//src/com/unisinos/csj/fragments/FriendsRequestGames.java=UTF-8
+encoding//src/com/unisinos/csj/fragments/Games.java=UTF-8
+encoding//src/com/unisinos/csj/fragments/LoanGameToFriend.java=UTF-8
+encoding//src/com/unisinos/csj/fragments/LoanGames.java=UTF-8
+encoding//src/com/unisinos/csj/fragments/YourLoans.java=UTF-8
+encoding//src/com/unisinos/csj/model/ItemListView.java=UTF-8

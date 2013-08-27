@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#e5e5e5"
+    android:id="@+id/loansLayout">
+    
+    <Button
+        android:id="@+id/seusEmprestimos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="148dp"
+        android:text="@string/yourLoans" />
+
+    <Button
+        android:id="@+id/pedirEmprestado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/seusEmprestimos"
+        android:layout_alignRight="@+id/seusEmprestimos"
+        android:layout_below="@+id/seusEmprestimos"
+        android:layout_marginTop="15dp"
+        android:text="@string/borrow" />
+
+    <Button
+        android:id="@+id/perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/seusEmprestimos"
+        android:layout_alignLeft="@+id/seusEmprestimos"
+        android:layout_alignRight="@+id/seusEmprestimos"
+        android:layout_marginBottom="62dp"
+        android:text="@string/perfil" />
+
+    <Button
+        android:id="@+id/emprestar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pedirEmprestado"
+        android:layout_alignRight="@+id/pedirEmprestado"
+        android:layout_below="@+id/pedirEmprestado"
+        android:layout_marginTop="18dp"
+        android:text="@string/emprestar" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/emprestar"
+        android:layout_alignRight="@+id/emprestar"
+        android:layout_below="@+id/emprestar"
+        android:layout_marginTop="16dp"
+        android:text="@string/logout" />
+
+</RelativeLayout>
